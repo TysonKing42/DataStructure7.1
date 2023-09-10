@@ -5,8 +5,8 @@ namespace DataStructure7._0
 {
     public partial class Form1 : Form
     {
-        static int maxRecords = 12; // Max number of records
-        static int attributes = 4; // The number of attribute per each record
+        static int maxRecords = 12; // Max number of records (12)
+        static int attributes = 4; // The number of attribute per each record (4)
         int recordCount = 0; // Current record number
         string[,] dataRecords = new string[maxRecords, attributes]; // Data storage for the array
         private int selectedIndex = -1; // Declare selectedIndex at the class level
