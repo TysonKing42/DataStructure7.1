@@ -13,7 +13,7 @@ namespace DataStructure7._0
 
         public Form1()
         {
-            InitializeComponent();// Initialize the form components
+            InitializeComponent();// Initialize the forms components
             listView.SelectedIndexChanged += listView_SelectedIndexChanged; // Change of selections for listView
         }
         // Method to display records in the list view
