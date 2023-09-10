@@ -45,6 +45,7 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.loadBtn = new System.Windows.Forms.Button();
             this.searchTxt = new System.Windows.Forms.TextBox();
+            this.sortBtn = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -196,11 +197,22 @@
             this.searchTxt.Size = new System.Drawing.Size(100, 23);
             this.searchTxt.TabIndex = 13;
             // 
+            // sortBtn
+            // 
+            this.sortBtn.Location = new System.Drawing.Point(12, 304);
+            this.sortBtn.Name = "sortBtn";
+            this.sortBtn.Size = new System.Drawing.Size(75, 23);
+            this.sortBtn.TabIndex = 14;
+            this.sortBtn.Text = "Sort";
+            this.sortBtn.UseVisualStyleBackColor = true;
+            this.sortBtn.Click += new System.EventHandler(this.sortBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sortBtn);
             this.Controls.Add(this.searchTxt);
             this.Controls.Add(this.loadBtn);
             this.Controls.Add(this.statusStrip1);
@@ -216,7 +228,7 @@
             this.Controls.Add(this.editBtn);
             this.Controls.Add(this.addBtn);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "DataStructue7.0";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -243,5 +255,6 @@
         private ToolStripStatusLabel toolStripStatusLabel1;
         private Button loadBtn;
         private TextBox searchTxt;
+        private Button sortBtn;
     }
 }
