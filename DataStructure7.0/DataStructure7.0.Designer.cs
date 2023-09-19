@@ -115,7 +115,7 @@
             this.dataStructureTxt.Name = "dataStructureTxt";
             this.dataStructureTxt.Size = new System.Drawing.Size(100, 23);
             this.dataStructureTxt.TabIndex = 6;
-            this.dataStructureTxt.TextChanged += new System.EventHandler(this.dataStructureTxt_TextChanged);
+            //this.dataStructureTxt.TextChanged += new System.EventHandler(this.dataStructureTxt_TextChanged);
             // 
             // categoryTxt
             // 
@@ -152,7 +152,7 @@
             this.listView.TabIndex = 10;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
-            this.listView.SelectedIndexChanged += new System.EventHandler(this.listView_SelectedIndexChanged_1);
+            //this.listView.SelectedIndexChanged += new System.EventHandler(this.listView_SelectedIndexChanged_1);
             // 
             // name
             // 

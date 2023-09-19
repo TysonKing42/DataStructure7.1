@@ -213,12 +213,7 @@ namespace DataStructure7._0
                 }
             }
         }
-
-        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-        
+       
         private void SortRecords()
         {
             for (int i = 0; i < recordCount - 1; i++)
@@ -307,24 +302,11 @@ namespace DataStructure7._0
             }
         }
 
-        private void dataStructureTxt_TextChanged(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void statusStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void loadBtn_Click(object sender, EventArgs e)
+      private void loadBtn_Click(object sender, EventArgs e)
         {
             LoadFromFile();
-        }
-
-        private void listView_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
         }
 
         private void searchBtn_Click(object sender, EventArgs e)
